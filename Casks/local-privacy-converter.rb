@@ -1,13 +1,13 @@
 cask "local-privacy-converter" do
-  version "1.3.0"
+  version "1.4.0"
 
   on_arm do
-    sha256 "bc9aff2ebd577ebc552b3acd4e187ee636820729db49b12fb1754c35bc8116a5"
+    sha256 "5acadf05311a0d9f8b283f17d336df4bbf809b55f81eeccb092a815321bfffa5"
     url "https://github.com/Sergeant61/local-privacy-converter/releases/download/v#{version}/Local.Privacy.Converter-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "8a4313b49a427e1d624d0569271c650a39ee62a20e24e46e729ef7aa61c43962"
+    sha256 "56cf500d809e1b0da249b62ee4fab29733fd53126d0b771865712652e985bfdc"
     url "https://github.com/Sergeant61/local-privacy-converter/releases/download/v#{version}/Local.Privacy.Converter-#{version}.dmg"
   end
 
